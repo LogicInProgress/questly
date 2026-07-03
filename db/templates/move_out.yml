@@ -1,0 +1,18 @@
+# Applied at quest creation when template_key == "move_out".
+name: Flat move-out
+emblem_emoji: "🏠"
+tags:
+  - { name: Packing, emoji: "📦", color: "#8b5cf6" }
+  - { name: Admin, emoji: "📄", color: "#38bdf8" }
+  - { name: Cleaning, emoji: "🧹", color: "#4ade80" }
+  - { name: Bills, emoji: "💡", color: "#ffc94d" }
+objectives:
+  - { title: "Give notice to landlord", priority: epic, tag: Admin }
+  - { title: "Book movers / rent a van", priority: high, tag: Admin }
+  - { title: "Collect packing boxes & tape", priority: high, tag: Packing }
+  - { title: "Pack room by room", priority: low, tag: Packing }
+  - { title: "Transfer / cancel utilities", priority: high, tag: Bills }
+  - { title: "Update address (bank, post, work)", priority: high, tag: Admin }
+  - { title: "Deep clean the flat", priority: high, tag: Cleaning }
+  - { title: "Return keys & get deposit back", priority: epic, tag: Admin }
+  - { title: "Take meter readings", priority: low, tag: Bills }

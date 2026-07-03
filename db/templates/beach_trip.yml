@@ -1,0 +1,17 @@
+# Applied at quest creation when template_key == "beach_trip".
+name: Beach trip
+emblem_emoji: "🏖️"
+tags:
+  - { name: Packing, emoji: "🧳", color: "#8b5cf6" }
+  - { name: Booking, emoji: "🏨", color: "#38bdf8" }
+  - { name: Food, emoji: "🍹", color: "#4ade80" }
+  - { name: Fun, emoji: "🏐", color: "#ffc94d" }
+objectives:
+  - { title: "Book stay near the beach", priority: high, tag: Booking }
+  - { title: "Arrange transport / flights", priority: high, tag: Booking }
+  - { title: "Sunscreen & aloe vera", priority: high, tag: Packing }
+  - { title: "Swimwear & towels", priority: low, tag: Packing }
+  - { title: "Beach games & floats", priority: low, tag: Fun }
+  - { title: "Waterproof phone pouch", priority: low, tag: Packing }
+  - { title: "Plan a seafood dinner", priority: low, tag: Food }
+  - { title: "Snacks & drinks cooler", priority: low, tag: Food }

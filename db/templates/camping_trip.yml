@@ -1,0 +1,18 @@
+# Applied at quest creation when template_key == "camping_trip".
+name: Camping trip
+emblem_emoji: "🏕️"
+tags:
+  - { name: Gear, emoji: "🎒", color: "#8b5cf6" }
+  - { name: Food, emoji: "🍜", color: "#4ade80" }
+  - { name: Permits, emoji: "📄", color: "#38bdf8" }
+  - { name: Health, emoji: "💊", color: "#fb7185" }
+objectives:
+  - { title: "Tent & sleeping bags", priority: high, tag: Gear }
+  - { title: "Camping stove & fuel", priority: high, tag: Gear }
+  - { title: "Headlamps & spare batteries", priority: low, tag: Gear }
+  - { title: "First-aid kit", priority: high, tag: Health }
+  - { title: "Book campsite", priority: high, tag: Permits }
+  - { title: "Check fire & park permits", priority: high, tag: Permits }
+  - { title: "Plan meals & buy supplies", priority: low, tag: Food }
+  - { title: "Water filter / purification tablets", priority: high, tag: Health }
+  - { title: "Weather & trail check", priority: low, tag: Permits }
